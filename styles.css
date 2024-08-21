@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+canvas {
+  border: 2px solid white;
+  background-color: #000;
+  display: block;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+}
